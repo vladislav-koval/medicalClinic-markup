@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Медицинский центр</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic,cyrillic-ext"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65aa9dc314.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">Клиника</div>
+                <nav class="nav">
+                    <a href="" class="nav__link">Войти</a>
+                    <a href="" class="nav__link">Регистрация</a>
+                    <a href="" class="nav__link">Личный кабинет</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__inner">
+                <form action="" class="form">
+                    <h2 class="form__name">Регистрация</h2>
+                    <div class="form__btn-wrapper">
+                        <a class="service-card__round-btn" href="#"><i class="far fa-times-circle"></i></a>
+                    </div>
+                    <fieldset class="form__field">
+                        <input type="text" class="form__input" placeholder="Логин" required pattern="[A-Za-z]{0,}">
+                        <span class="form__error">Логин должен содержать только латинские символы</s>
+                    </fieldset>
+                    <fieldset class="form__field">
+                        <input type="password" class="form__input" placeholder="Пароль" required pattern="[A-Za-z]{0,}">
+                        <div class="form__error">Пароль должен быть бла бла бла</s>
+                    </fieldset>
+                    <input type="submit" class="btn service-card_btn" value="Зарегистрироваться">
+                </form>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="records">
+            <div class="container">
+                <div class="records__inner">
+
+                    <div class="record-card">
+
+                        <img src="https://via.placeholder.com/250x200" alt="" class="record-card__img">
+                        <div class="record-card__info">
+                            <h3 class="record-card__title"><a href="#">Зубной врач</a></h3>
+                            <div class="record-card__description">
+                                Вы записаны
+                                <div class="record-card__date">на 20.12.2019</div>
+                                <div class="record-card__time"> в 12:30</div>
+                            </div>
+                            <a href="#" class="btn service-card_btn">Подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="record-card">
+
+                        <img src="https://via.placeholder.com/250x200" alt="" class="record-card__img">
+                        <div class="record-card__info">
+                            <h3 class="record-card__title"><a href="#">Зубной врач</a></h3>
+                            <div class="record-card__description">
+                                Вы записаны
+                                <div class="record-card__date">на 20.12.2019</div>
+                                <div class="record-card__time"> в 12:30</div>
+                            </div>
+                            <a href="#" class="btn service-card_btn">Подробнее</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__copyright">&#64;2019 MedicalCenter by <span>Koval Vladislav NSTU PMI-72</span></div>
+                <div class="social">
+                    <a class="social__link"><img src="./assets/img/social/vk.svg" alt="vk"></a>
+                    <a class="social__link"><img src="./assets/img/social/github.svg" alt="vk"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

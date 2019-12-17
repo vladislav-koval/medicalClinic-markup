@@ -1,0 +1,44 @@
+.times {
+    display: flex;
+}
+.times__inner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+    margin-top: 54px;
+    height: 246px;
+    width: 195px;
+}
+
+.times__data {
+    display: block;
+    width: 50px;
+    height: 31px;
+    line-height: 30px;
+    text-align: center;
+    margin: 5px 15px 5px 0;
+}
+
+.times__data-link {
+    color: #666;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+
+    background-image: linear-gradient(to bottom, #eaeaea 0%, #e5e5e5 60%, #d9d9d9 100%);
+    border: 1px solid #c2c2c2;
+    border-radius: 2px;
+}
+
+.times__data-link:hover {
+    background: #fff;
+}
+
+.times__data-link.active,
+.times__data-link:active {
+    background: #6dafbf;
+}
